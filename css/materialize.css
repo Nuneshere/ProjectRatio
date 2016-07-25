@@ -4916,12 +4916,12 @@ small {
   background-color: #546e7a;
   text-align: center;
   letter-spacing: .5px;
-  transition: .2s ease-out;
+  transition: .1s ease-out;
   cursor: pointer;
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #4CAF50;
 }
 
 .btn-floating {
@@ -5486,7 +5486,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #2ab7a9;
+  background-color: #b0bec5;
 }
 
 label {
