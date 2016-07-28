@@ -2688,7 +2688,7 @@ ul li {
 }
 
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);    
 }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
@@ -2723,8 +2723,10 @@ ul li {
 
 .divider {
   height: 1px;
+    width: 100%;
   overflow: hidden;
-  background-color: #e0e0e0;
+  background-color: #546e7a;
+    margin-bottom: 15px;
 }
 
 blockquote {
@@ -3472,7 +3474,8 @@ input[type=range] + .thumb {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
+  margin-top: 27px;
 }
 
 .row:after {
