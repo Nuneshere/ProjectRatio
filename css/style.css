@@ -20,6 +20,19 @@
     opacity: 0.;
 }
 
+.p-card-1{
+    background-image: url("/Imagens/pattern1.png");
+    background-repeat: repeat;
+    background-size: 56px;
+    background-attachment: scroll;
+}
+.p-card-2{
+    background-image: url("/Imagens/pattern2.png");
+    background-repeat: repeat;
+    background-size: 200px;
+    background-attachment: scroll;
+}
+
 <style>
     .google-maps {
         position: relative;
