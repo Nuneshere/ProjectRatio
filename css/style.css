@@ -33,6 +33,13 @@
     background-attachment: scroll;
 }
 
+centralize{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    width: 50%;
+    height: 50%;
+}
 <style>
     .google-maps {
         position: relative;
