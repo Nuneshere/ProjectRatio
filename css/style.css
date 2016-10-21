@@ -40,6 +40,22 @@ centralize{
     width: 50%;
     height: 50%;
 }
+
+
+/*B&W*/
+.bw {
+  -webkit-transition: all 0.275s ease;
+     -moz-transition: all 0.275s ease;
+       -o-transition: all 0.275s ease;
+      -ms-transition: all 0.275s ease;
+          transition: all 0.275s ease;
+      -webkit-filter: grayscale(100%);
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(0%);
+}
+
 <style>
     .google-maps {
         position: relative;
