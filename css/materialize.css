@@ -4553,10 +4553,15 @@ small {
   transition: box-shadow .25s;
   border-radius: 2px;
 }
+.card.horizontal {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
 
 .card .card-title {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .card .card-title.activator {
