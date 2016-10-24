@@ -21,7 +21,7 @@
 }
 
 .p-card-1{
-    background-image: url("/Imagens/pattern1.png");
+    background-image: url("./Imagens/pattern1.png");
     background-repeat: repeat;
     background-size: 56px;
     background-attachment: scroll;
@@ -59,7 +59,7 @@ centralize{
 <style>
     .google-maps {
         position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
+        padding-bottom: 75%; 
         height: 0;
         overflow: hidden;
     }
