@@ -1,0 +1,79 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.pattern-dots{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQIW2NkYGDwYWBg2MIABYwwBjYBsEoMFQBRTgIFr1ydPQAAAABJRU5ErkJggg==
+    );
+    background-repeat: repeat;
+    opacity: 0.;
+}
+
+.p-card-1{
+    background-image: url("/Imagens/pattern1.png");
+    background-repeat: repeat;
+    background-size: 56px;
+    background-attachment: scroll;
+}
+.p-card-2{
+    background-image: url("/Imagens/pattern2.png");
+    background-repeat: repeat;
+    background-size: 200px;
+    background-attachment: scroll;
+}
+
+centralize{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    width: 50%;
+    height: 50%;
+}
+
+.colorstudy-1{
+    color: #A17843 !important;
+}
+.colorstudy-2{
+    color: #574022;
+}
+
+/*B&W*/
+.bw {
+  -webkit-transition: all 0.275s ease;
+     -moz-transition: all 0.275s ease;
+       -o-transition: all 0.275s ease;
+      -ms-transition: all 0.275s ease;
+          transition: all 0.275s ease;
+      -webkit-filter: grayscale(100%);
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
