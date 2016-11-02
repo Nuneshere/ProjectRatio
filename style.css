@@ -23,7 +23,7 @@
 .p-card-1{
     background-image: url("/Imagens/pattern1.png");
     background-repeat: repeat;
-    background-size: 34px;
+    background-size: 56px;
     background-attachment: scroll;
 }
 .p-card-2{
@@ -41,6 +41,12 @@ centralize{
     height: 50%;
 }
 
+.colorstudy-1{
+    color: #A17843 !important;
+}
+.colorstudy-2{
+    color: #574022;
+}
 
 /*B&W*/
 .bw {
@@ -59,7 +65,7 @@ centralize{
 <style>
     .google-maps {
         position: relative;
-        padding-bottom: 75%; 
+        padding-bottom: 75%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
     }
