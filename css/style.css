@@ -48,6 +48,12 @@ centralize{
     color: #574022;
 }
 
+.titled{
+    position: right;
+    color: #fff;
+    font-weight: 900;
+    font-size: 5rem;
+}
 /*B&W*/
 .bw {
   -webkit-transition: all 0.275s ease;
