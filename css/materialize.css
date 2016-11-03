@@ -4743,7 +4743,7 @@ small {
   overflow-x: none;
   overflow-y: none;
   height: 48px;
-  background-color: #FFE6A6;
+  background-color: #A283D4;
   margin: 0 auto;
   width: 100%;
   white-space: nowrap;
@@ -4782,7 +4782,7 @@ small {
 }
 
 .tabs-2 .tab-2 a:hover {
-  color: #f9c9cb;
+  color: #704BBD;
 }
 
 .tabs-2 .tab-2.disabled-2 a {
