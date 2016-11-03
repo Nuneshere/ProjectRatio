@@ -21,13 +21,13 @@
 }
 
 .p-card-1{
-    background-image: url("https://drive.google.com/file/d/0B03QdEXJmBSraUhoSl9sZG84d0U/view?usp=sharing");
+    background-image: url("/Imagens/pattern1.png");
     background-repeat: repeat;
-    background-size: 34px;
+    background-size: 56px;
     background-attachment: scroll;
 }
 .p-card-2{
-    background-image: url("https://drive.google.com/file/d/0B03QdEXJmBSraWpDSXdzNndURDQ/view?usp=sharing");
+    background-image: url("/Imagens/pattern2.png");
     background-repeat: repeat;
     background-size: 200px;
     background-attachment: scroll;
@@ -48,12 +48,6 @@ centralize{
     color: #574022;
 }
 
-.titled{
-    position: right;
-    color: #fff;
-    font-weight: 900;
-    font-size: 5rem;
-}
 /*B&W*/
 .bw {
   -webkit-transition: all 0.275s ease;
@@ -71,7 +65,7 @@ centralize{
 <style>
     .google-maps {
         position: relative;
-        padding-bottom: 75%; 
+        padding-bottom: 75%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
     }
