@@ -32,6 +32,12 @@
     background-size: 200px;
     background-attachment: scroll;
 }
+.titled{
+  position: right;
+  color: #fff;
+  font-weight: 900;
+  font-size: 5rem;
+}
 
 centralize{
     position:absolute;
