@@ -4136,12 +4136,11 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  left:90px;
+  left: 90px;
   color: #ffffff;
   display: inline-block;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 1.8rem;
-  padding: 0;
   white-space: nowrap;
 }
 
