@@ -21,16 +21,22 @@
 }
 
 .p-card-1{
-    background-image: url("https://drive.google.com/file/d/0B03QdEXJmBSraUhoSl9sZG84d0U/view?usp=sharing");
+    background-image: url("ImagensCss/pattern1.png");
     background-repeat: repeat;
     background-size: 34px;
     background-attachment: scroll;
 }
 .p-card-2{
-    background-image: url("https://drive.google.com/file/d/0B03QdEXJmBSraWpDSXdzNndURDQ/view?usp=sharing");
+    background-image: url("ImagensCss/pattern2.png");
     background-repeat: repeat;
     background-size: 200px;
     background-attachment: scroll;
+}
+.titled{
+  position: right;
+  color: #fff;
+  font-weight: 900;
+  font-size: 5rem;
 }
 
 centralize{
@@ -41,19 +47,7 @@ centralize{
     height: 50%;
 }
 
-.colorstudy-1{
-    color: #A17843 !important;
-}
-.colorstudy-2{
-    color: #574022;
-}
 
-.titled{
-    position: right;
-    color: #fff;
-    font-weight: 900;
-    font-size: 5rem;
-}
 /*B&W*/
 .bw {
   -webkit-transition: all 0.275s ease;
