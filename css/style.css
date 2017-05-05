@@ -37,8 +37,19 @@
   color: #fff;
   font-weight: 900;
   font-size: 5rem;
+  overflow: hidden;
+  font-size: 4.3vw;
 }
 
+.text-card{
+    margin-top:-1 4px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff; 
+    overflow: hidden;
+    padding-right: 2%; 
+    font-size: 1.1rem;
+    font-size: 1.0vm;
+}
 centralize{
     position:absolute;
     left: 50%;
@@ -61,6 +72,18 @@ centralize{
     line-height: 20px;
 }
 
+.card-conteudo {
+    border-radius:20px; 
+    background-color: #fff; 
+    width: 77%; 
+    max-width: ;
+    height: auto; 
+    position: absolute; 
+    top:20%; 
+    left: 10%;
+    bottom:0%;
+    right:10%;
+}
 /*B&W*/
 .bw {
   -webkit-transition: all 0.275s ease;
