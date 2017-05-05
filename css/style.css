@@ -47,6 +47,19 @@ centralize{
     height: 50%;
 }
 
+.p-image-card{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand-me {
+    display: block;
+    float: left;
+    height:50px;
+    padding: 6px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 
 /*B&W*/
 .bw {
