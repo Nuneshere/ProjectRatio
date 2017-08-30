@@ -13,6 +13,14 @@
 	font-size: inherit;
 }
 
+.conteudo {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
 .pattern-dots{
     background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQIW2NkYGDwYWBg2MIABYwwBjYBsEoMFQBRTgIFr1ydPQAAAABJRU5ErkJggg==
     );
@@ -37,9 +45,8 @@
   color: #fff;
   font-weight: 900;
   font-size: 5rem;
-  overflow: hidden;
-  font-size: 4.3vw;
 }
+
 
 .text-card{
     margin-top:-1 4px;
@@ -57,10 +64,9 @@
     color: #fff; 
     overflow: hidden;
     padding-right: 2%;
-    font-size: 1.5vw;
-    
-    
+    font-size: 1.5vw;    
 }
+
 centralize{
     position:absolute;
     left: 50%;
@@ -69,10 +75,6 @@ centralize{
     height: 50%;
 }
 
-.p-image-card{
-    width: 100px;
-    height: 100px;
-}
 
 .navbar-brand-me {
     display: block;
@@ -109,6 +111,7 @@ centralize{
     right:10%;
     padding-bottom: 5%;
 }
+
 /*B&W*/
 .bw {
   -webkit-transition: all 0.275s ease;
