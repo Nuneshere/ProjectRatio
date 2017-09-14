@@ -16,3 +16,7 @@ $('ul.tabs a').on('click', function(e){
 });
 
 $(".button-collapse").sideNav();
+
+ $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
